@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pump Timer"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/btnRice"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Rice"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnWheat"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Wheat"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnSugarcane"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Sugarcane"
+        android:layout_marginBottom="15dp" />
+
+    <Button
+        android:id="@+id/btnCotton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="Cotton"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:id="@+id/tvPumpResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Crop"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

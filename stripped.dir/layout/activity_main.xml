@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#F5F5F5">
+
+    <!-- Zone -->
+    <TextView
+        android:id="@+id/tvZone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected Zone"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:padding="10dp"/>
+
+    <!-- Power Status -->
+    <TextView
+        android:id="@+id/tvStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POWER STATUS : OFF"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="#FF0000"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <!-- Last Seen -->
+    <TextView
+        android:id="@+id/tvLastSeen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Last Seen : --"
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:padding="10dp"
+        android:gravity="center"/>
+
+    <!-- ON Button -->
+    <Button
+        android:id="@+id/btnOn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POWER ON"
+        android:backgroundTint="#4CAF50"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"/>
+
+    <!-- OFF Button -->
+    <Button
+        android:id="@+id/btnOff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="POWER OFF"
+        android:backgroundTint="#F44336"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"/>
+
+    <!-- Pump Timer -->
+    <Button
+        android:id="@+id/btnPumpTimer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pump Timer"
+        android:layout_marginTop="20dp"/>
+
+    <!-- Logout -->
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#607D8B"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>
