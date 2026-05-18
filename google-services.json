@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588192881744",
+    "project_id": "energion-2c8cc",
+    "storage_bucket": "energion-2c8cc.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588192881744:android:a51eecd41b83fc889b8555",
+        "android_client_info": {
+          "package_name": "com.example.energion"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzG12r1LmgHT4yvriayvHV0dDxNX3JJ3w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
