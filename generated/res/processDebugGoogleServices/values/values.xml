@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">588192881744</string>
+    <string name="google_api_key" translatable="false">AIzaSyCzG12r1LmgHT4yvriayvHV0dDxNX3JJ3w</string>
+    <string name="google_app_id" translatable="false">1:588192881744:android:a51eecd41b83fc889b8555</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCzG12r1LmgHT4yvriayvHV0dDxNX3JJ3w</string>
+    <string name="google_storage_bucket" translatable="false">energion-2c8cc.firebasestorage.app</string>
+    <string name="project_id" translatable="false">energion-2c8cc</string>
+</resources>
